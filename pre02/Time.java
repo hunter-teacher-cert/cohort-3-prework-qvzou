@@ -7,12 +7,9 @@ public static void main(String[] args){
   int hour = 23;
   int minute = 23;
   int second = 03;
-  System.out.print("The time is ");
-  System.out.print(hour);
-  System.out.print(":");
-  System.out.print(minute);
-  System.out.print(":");
-  System.out.print(second);
-  System.out.println(".");
+  System.out.print("Number of seconds since midnight: ");
+  System.out.println(hour * 60 * 60 + minute * 60 + second);
+  System.out.print("Number of seconds left until midnight: ");
+  System.out.println(24 * 60 * 60 + 60 * 60 + 60 - hour * 60 * 60 + minute * 60 + second);
   }
 }
