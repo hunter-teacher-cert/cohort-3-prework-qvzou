@@ -15,4 +15,4 @@ public class Celsius {
     F = C * C_TO_F + CELSIUS_TO_FARENHEIT;
     System.out.printf("%d C = %.1f F\n", C, F);
     }
-} 
+} // incomplete, unable to change %d to %.1f for C, an error occurs
