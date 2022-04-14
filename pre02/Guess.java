@@ -1,5 +1,3 @@
-import java.io.*;
-import java.util.*;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -16,4 +14,4 @@ public class Guess {
     System.out.println("The number I was thinking of is: " + number);
       System.out.println("You were off by: " + difference);
   }
-}
+} // is there a way to get rid of a negative if the number is smaller than line
