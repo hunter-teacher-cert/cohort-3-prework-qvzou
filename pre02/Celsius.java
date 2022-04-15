@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Celsius {
 
   public static void main(String[]args) {
-    int C;
+    double C;
     double F;
     Scanner in = new Scanner(System.in);
 
@@ -13,6 +13,6 @@ public class Celsius {
     final double C_TO_F = 9.0 / 5.0;
     final double CELSIUS_TO_FARENHEIT = 32;
     F = C * C_TO_F + CELSIUS_TO_FARENHEIT;
-    System.out.printf("%d C = %.1f F\n", C, F);
+    System.out.printf("%.1f C = %.1f F\n", C, F);
     }
-} // incomplete, unable to change %d to %.1f for C, an error occurs
+} 
