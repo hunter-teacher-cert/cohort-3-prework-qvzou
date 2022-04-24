@@ -14,12 +14,11 @@ public class Loops {
     System.out.println(result);
   }
   
-  public static int factorial(int n) {
-     do {
-      int recurse = factorial(n - 1);
-      int result = n * recurse;
-      System.out.println(result);
-    } while (n > 0); 
-    return 1;
+  public static void factorial(int n) {
+     int result = 1;
+    for (int i = 1; i <= n; i = i + 1) {
+      result = result * i;
+    }
+    System.out.println(result);
   }
 }
