@@ -6,8 +6,8 @@ public class Methods {
   
   public static void main(String[] args) {
         System.out.println(isDivisible(4, 1));
-System.out.println(isTriangle(30, 3, 5));
-        System.out.println(ack(2, 1));
+      System.out.println(isTriangle(30, 3, 5));
+      System.out.println(ack(2, 1));
     }
  
   public static boolean isDivisible(int m, int n) {
@@ -37,7 +37,7 @@ System.out.println(isTriangle(30, 3, 5));
 Ackermann function.
   */
 
-  public static int ack(int n, int m) {
+  public static int ack(int m, int n) {
     if (m == 0) {
       return n + 1;
     }
