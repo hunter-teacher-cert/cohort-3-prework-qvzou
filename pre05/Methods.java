@@ -49,7 +49,4 @@ Ackermann function.
     }
   return ack(m, n);
     }
-  /**
-  *when m is greater than 0, stack overflow error occurs for 45 and 48.
-  */
 }
