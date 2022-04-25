@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class SQRT {
- /**
-  *Exercise 2 of Chapter 7
-  */
+ 
+  // Chapter 7 Exercise 2
+  
 public static void main(String[] args) {
   Scanner in = new Scanner(System.in);
 

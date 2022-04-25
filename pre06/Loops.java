@@ -12,6 +12,7 @@ public class Loops {
     factorial(3);
 	}
 
+  //Chapter 7 Exercise 2
   public static double squareRoot(double a) {
     double x0 = a / 2;
 		double x1 = x0;
@@ -24,6 +25,8 @@ public class Loops {
     return x1;
   }
 
+  //Chapter 7 Exercise 3
+  
   public static void iterativePower(double x, int n) {
     double result = 1;
     for (int i = 0; i < n; i = i + 1) {
@@ -31,6 +34,8 @@ public class Loops {
     }
     System.out.println(result);
   }
+
+  //Chapter 7 Exercise 4
   
   public static void factorial(int x) {
      int result = 1;
