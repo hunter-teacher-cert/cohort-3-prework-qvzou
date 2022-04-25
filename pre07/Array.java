@@ -8,6 +8,8 @@ public class Array {
     double[] newArray = randomArray(100);
     System.out.println(powArray(newArray, 2));
 
+    int[] scores = ;
+    
   }
 
   // Chapter 8 Exercise 1.1
@@ -26,12 +28,10 @@ public class Array {
     for (int i = 0; i < a.length; i++) {
       a[i] = random.nextInt(100);
     }
-    System.out.println(a[2]);
     return a;
   }
 
   //Chapter 8 Exercise 1.2
-
   public static int[] histogram(int[] a, int count) {
     int[] counts = new int[100];
     for (int score : scores) {
@@ -39,4 +39,6 @@ public class Array {
     }
     return counts;
   }
+
+
 }
